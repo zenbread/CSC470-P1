@@ -21,5 +21,10 @@ namespace P1_Code
         {
             Application.Exit();
         }
+
+        private void FormHelloWorld_Load(object sender, EventArgs e)
+        {
+            this.CenterToScreen();
+        }
     }
 }

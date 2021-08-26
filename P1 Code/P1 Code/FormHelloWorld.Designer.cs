@@ -65,6 +65,7 @@ namespace P1_Code
             this.Controls.Add(this.btnExit);
             this.Name = "FormHelloWorld";
             this.Text = "CSC  470 - P1";
+            this.Load += new System.EventHandler(this.FormHelloWorld_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
